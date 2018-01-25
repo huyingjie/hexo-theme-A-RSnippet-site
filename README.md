@@ -13,6 +13,7 @@
 	<sub>Created and Maintained By <a href="http://yingjiehu.com" target="_blank">Yingjie Hu</a> with ❤️ &nbsp;Follow me on <a href="https://twitter.com/yingjieYJH" target="_blank">Twitter</a>.</sub>
 </div>
 
+<div align="center"><img src="source/_posts/tutorial/A-RSnippet.png"></div>
 
 This is the repo for the website <http://arsnippet.yingjiehu.com/>, which is the official site for [the Hexo A-RSnippet Theme](https://github.com/huyingjie/hexo-theme-A-RSnippet/).
 
