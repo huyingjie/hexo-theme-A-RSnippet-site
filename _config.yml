@@ -245,7 +245,7 @@ google_analytics: UA-38355881-1            # Format: UA-xxxxxx-xx
 # Click "Alternative methods" => Select "HTML tag" => copy the string in the "content" property of "meta" element
 # <meta name="google-site-verification" content="xxxxxx" />
 # Input xxxxxx below
-google_site_verification: wtCjI-zcpr2FYwWS3sI4OWzMK9e7VomDrZyxpVUUIng
+google_site_verification: g5BseDGQ1hWwdbBPJLKNfbC6xNOaM3X4LnKEMAvx_tI
 
 bing_site_verification:
 yandex_site_verification:
