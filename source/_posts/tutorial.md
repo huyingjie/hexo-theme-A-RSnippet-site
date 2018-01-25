@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Tutorial: How to Use Hexo's A-Snippet Theme"
-date: 2018-01-24
 categories:
 - tutorial
 tags:
