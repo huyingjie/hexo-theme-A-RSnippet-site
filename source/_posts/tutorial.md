@@ -9,6 +9,7 @@ tags:
 - tutorial
 cover_img: "candle-animation.gif"
 description: "Just Do It!"
+date: 2018-01-25
 ---
 
 <p align="center">The goal of A-RSnippet theme is to be comprehensive.</p>
