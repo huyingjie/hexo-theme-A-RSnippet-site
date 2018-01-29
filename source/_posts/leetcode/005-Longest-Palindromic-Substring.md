@@ -1,4 +1,5 @@
 ---
+layout: leetcode
 number: 5
 title: "005 Longest Palindromic Substring"
 leetcodeURL: "https://leetcode.com/problems/longest-palindromic-substring/description/"

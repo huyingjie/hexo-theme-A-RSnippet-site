@@ -1,4 +1,5 @@
 ---
+layout: leetcode
 number: 1
 title: "000 Two Sum"
 leetcodeURL: "https://leetcode.com/problems/two-sum/description/"

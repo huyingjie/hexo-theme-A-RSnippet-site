@@ -1,4 +1,5 @@
 ---
+layout: leetcode
 number: 49
 title: "049 Group Anagrams"
 leetcodeURL: "https://leetcode.com/problems/group-anagrams/description/"

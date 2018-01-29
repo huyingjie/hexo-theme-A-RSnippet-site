@@ -259,6 +259,7 @@ Example:
 
 		heading, paragraph, link blockquote, list, form, table, abbr, acronym, sub, sup, image, Math formula, video (YouTube, Vimeo), jsfiddle, gist
 	* [Long title](/long-title)
+	* [No title](/untitled)
 	* [中文简体测试 | Chinese (Simplified) Test](/chinese-simplified-test)
 	* [中文繁體測試 | Chinese (Traditional) Test](/chinese-traditional-test)
 	* [日本語テスト | Japanese Test](/japanese-test)
