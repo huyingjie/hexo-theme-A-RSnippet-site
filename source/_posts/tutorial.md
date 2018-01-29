@@ -339,6 +339,11 @@ There are four ways:
 
 Adding new features, fixing bugs, answering questions in the forum and [Discord](https://discord.gg/CB6CPzq) will take me an enormous amount of time. Hence, I decided to give up maintaining Chinese documentation. If you want to translate it into other languages, please feel free to do it. You can add a link here after completion.
 
+## Internationalization
+
+* [en](https://github.com/huyingjie/hexo-theme-A-RSnippet/blob/master/languages/en.yml)
+* [zh-Hans](https://github.com/huyingjie/hexo-theme-A-RSnippet/blob/master/languages/zh-Hans.yml)
+
 ## Change Log
 
 Change Log is on <a href="http://yingjiehu.com/a-rsnippet-hexo-theme/">yingjehu.com</a>.
