@@ -8,7 +8,7 @@ tags:
 - tutorial
 cover_img: "candle-animation.gif"
 description: "Just Do It!"
-date: 2018-01-25
+date: 2018-01-23
 ---
 
 <p align="center">The goal of A-RSnippet theme is to be comprehensive.</p>
@@ -212,13 +212,6 @@ There are several ways you can help:
 4. Help people on the [forum](https://arsnippet.freeflarum.com/) and [Discord](https://discord.gg/CB6CPzq)
 
 ## Existing Bugs
-
-* list-category-leetcode layout
-
-	I used `site.categories.findOne({name: page["search_word"]}).posts.sort('title', 1).each(function(post) {}` to get the posts for a specified categories. There are two bugs that I don't know how to solve.
-
-	* You must use `["language", "python"]` format for the `categories` in the front matter. Otherwise, the post does not appear in the list.
-	* Hyphen (`-`) cannot be included in the category names.
 
 ## Thanks
 

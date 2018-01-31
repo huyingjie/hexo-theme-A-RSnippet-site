@@ -25,9 +25,15 @@ layout: layout
 <div class="container homepage">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
-          <% page.posts.each(function(post){ %>
-            <%- partial('_partial/index-post-list', {post: post}) %>
-          <% }) %>
+          <% if (config.sort_by_update) {%>
+            <% page.posts.sort('updated', -1).each(function(post) {%>
+                <%- partial('_partial/index-post-list', {post: post}) %>
+            <% }) %>
+          <% } else { %>
+            <% page.posts.each(function(post){ %>
+              <%- partial('_partial/index-post-list', {post: post}) %>
+            <% }) %>
+          <% } %>
           <%- partial('_partial/pagination') %>
         </div>
         <%- partial('_partial/sidebar-profile') %>

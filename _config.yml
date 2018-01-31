@@ -147,6 +147,7 @@ deploy:
 # ---------------------------------------------------------------
 # If enable, update date will show on the cover photo.
 index_update_date_enable: true
+sort_by_update: true  # empty or false: sort by post date
 
 # ---------------------------------------------------------------
 # Layout settings: post layout & leetcode layout
