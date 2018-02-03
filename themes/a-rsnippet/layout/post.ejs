@@ -2,6 +2,23 @@
 layout: layout
 ---
 <!-- post.ejs -->
+
+<style>
+.popular-posts-item {
+  list-style-type: none;
+}
+.popular-posts-title a {
+  font-size: 16px;
+}
+.popular-posts-title h3 {
+  margin: 5px;
+  font-weight: normal;
+}
+.related-posts {
+  font-weight: 400;
+  font-size: 18px;
+}
+</style>
 <article>
     <div class="container">
       <div class="col-lg-8 col-lg-offset-1 col-sm-9">
@@ -10,9 +27,16 @@ layout: layout
           <% } %>
           <%- config["content_before_post"] %>
           <%- page.content %>
+          <% if (config.related_posts && popular_posts( {} , page )) {%>
+            <div class='related-posts'>Related Posts:</div>
+            <%- popular_posts( {} , page ) %>
+          <% } %>
           <% if (config["content_after_post"]) { %>
             <%- config["content_after_post"] %>
           <% } %>
+
+        </ul>
+
           <hr>
           <ul class="pager">
               <% if (page.prev){ %>

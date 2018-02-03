@@ -14,7 +14,7 @@ date: 2018-01-23
 <p align="center">The goal of A-RSnippet theme is to be comprehensive.</p>
 
 <div align="center">
-<a href="https://github.com/huyingjie/hexo-theme-A-RSnippet/tree/master" target="_blank"><img src="https://travis-ci.org/huyingjie/hexo-theme-A-RSnippet.svg?branch=master" style="display:inline"></a> <a href="https://discord.gg/CB6CPzq" target="_blank"><img src="https://img.shields.io/discord/405912462031060992.svg" style="display:inline"></a> <a href="http://hexo.io" target="_blank"><img src="https://img.shields.io/badge/hexo-%3E%3D%203.0-blue.svg" style="display:inline"></a> <a href="https://github.com/huyingjie/hexo-theme-A-RSnippet" target="_blank"><img src="https://img.shields.io/badge/Release-v0.1.0-red.svg"></a> <a href="https://github.com/huyingjie/hexo-theme-A-RSnippet/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/license-GPL3-pink.svg" style="display:inline"></a></div>
+<a href="https://github.com/huyingjie/hexo-theme-A-RSnippet/tree/master" target="_blank"><img src="https://travis-ci.org/huyingjie/hexo-theme-A-RSnippet.svg?branch=master" style="display:inline"></a> <a href="https://discord.gg/CB6CPzq" target="_blank"><img src="https://img.shields.io/discord/405912462031060992.svg" style="display:inline"></a> <a href="http://hexo.io" target="_blank"><img src="https://img.shields.io/badge/hexo-%3E%3D%203.0-blue.svg" style="display:inline"></a> <a href="https://github.com/huyingjie/hexo-theme-A-RSnippet" target="_blank"><img src="https://img.shields.io/badge/Release-v0.1.1-red.svg"></a> <a href="https://github.com/huyingjie/hexo-theme-A-RSnippet/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/license-GPL3-pink.svg" style="display:inline"></a></div>
 
 <div align="center" style="padding-top:20px">
 	<sub>Created and Maintained By <a href="http://yingjiehu.com" target="_blank">Yingjie Hu</a> with ❤️ &nbsp;Follow me on <a href="https://twitter.com/yingjieYJH" target="_blank">Twitter</a>.</sub>
@@ -115,8 +115,6 @@ You can copy the files and folders in the `exampleSite` folder to your root of t
 * [jQuery UI 1.12.1](https://jqueryui.com/)
 * [Highlight.js](https://highlightjs.org/)
 
-
-
 ## Customize the Theme
 
 **Every time you change something in the `_config` file, run `hexo s` again.**
@@ -172,6 +170,22 @@ If you want to customize the theme, please try using following methods. There is
 	3. Access the files using `/folder_name/filename.extension`, such as `/img/cover-image.png`
 
 		The first `/` is required because it represents the root path of the site.
+
+## Usage
+### Sort post order on homepage
+
+Use `sort_by_update` in `_config` file to decide how to sort posts on homepage, by publish date or by update date.
+
+Values
+
+* `true`: by update date
+* `false`: by publish date
+
+### Add Related-Posts list at the end of posts
+
+1. Open `_config.yml` for the site
+2. Add `related_posts: true`
+3. Restart hexo
 
 <a id="Help-Wanted"></a>
 ## Contribution
