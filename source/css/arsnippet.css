@@ -12,3 +12,7 @@
 .subscribe a:hover{
   text-decoration: underline;
 }
+
+.intro-header {
+	background-color: white!important;
+}
