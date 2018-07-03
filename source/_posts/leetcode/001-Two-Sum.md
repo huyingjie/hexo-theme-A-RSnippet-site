@@ -1,7 +1,7 @@
 ---
 layout: leetcode
 number: 1
-title: "000 Two Sum"
+title: "001 Two Sum"
 leetcodeURL: "https://leetcode.com/problems/two-sum/description/"
 date: 2018-01-01
 draft: false

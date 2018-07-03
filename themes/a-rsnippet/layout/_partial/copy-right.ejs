@@ -1,0 +1,14 @@
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong><%=  __('posts.copyright.author') + __('symbol.colon') %></strong>
+    <%= config.author %>
+  </li>
+  <li class="post-copyright-link">
+    <strong><%- __('posts.copyright.link') + __('symbol.colon') %></strong>
+    <a href="<%= page.path | page.permalink %>" title="<%= page.title %>"><%= page.permalink %></a>
+  </li>
+  <li class="post-copyright-license">
+    <strong><%- __('posts.copyright.license_title') + __('symbol.colon') %> </strong>
+    <%- __('posts.copyright.license_content', config.post_copyright.license_url, config.post_copyright.license) %>
+  </li>
+</ul>

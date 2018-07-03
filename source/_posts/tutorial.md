@@ -6,6 +6,7 @@ categories:
 tags:
 - hexo
 - tutorial
+- test
 cover_img: "candle-animation.gif"
 description: "Just Do It!"
 date: 2018-01-23

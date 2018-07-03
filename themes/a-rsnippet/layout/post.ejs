@@ -19,6 +19,7 @@ layout: layout
   font-size: 18px;
 }
 </style>
+
 <article>
     <div class="container">
       <div class="col-lg-8 col-lg-offset-1 col-sm-9">
@@ -28,6 +29,7 @@ layout: layout
           <%- config["content_before_post"] %>
           <%- page.content %>
           <% if (config.related_posts && popular_posts( {} , page )) {%>
+            <hr>
             <div class='related-posts'>Related Posts:</div>
             <%- popular_posts( {} , page ) %>
           <% } %>
@@ -36,6 +38,9 @@ layout: layout
           <% } %>
 
         </ul>
+        <% if(config.post_copyright.enable) { %>
+          <%- include('_partial/copy-right') %>
+        <% } %>
 
           <hr>
           <ul class="pager">

@@ -17,7 +17,7 @@ favicon: # your favicon png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://arsnippets.yingjiehu.com
 root: /
 # :year/:month/:day/:title/
 permalink: :title/
@@ -172,6 +172,12 @@ toc:
   enable: true
   # Automatically add list number to toc.
   number: true
+
+# Declare copyright after the post
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # ---------------------------------------------------------------
 # Layout settings: page layout

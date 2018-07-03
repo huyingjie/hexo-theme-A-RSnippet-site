@@ -9,6 +9,13 @@ posts:
   archive: Archives
   category: Categories
   tag: Tags
+  copyright:
+    author: Post author
+    link: Post link
+    license_title: Copyright Notice
+    license_content: 'All articles in this blog are licensed under
+      <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
+
 
 sidebar:
   toc: Table of Contents
@@ -22,3 +29,8 @@ pagination:
 footer:
   powered: "Powered by %s"
   theme: Theme
+
+symbol:
+  comma: ', '
+  period: '. '
+  colon: ':'
